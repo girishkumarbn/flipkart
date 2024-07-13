@@ -24,6 +24,7 @@ dependencies {
     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
     implementation 'org.seleniumhq.selenium:selenium-java:4.21.0'
 
+    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.8.0'
 }
 
 buildDir = 'build'
